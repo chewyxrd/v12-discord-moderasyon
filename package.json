@@ -1,0 +1,16 @@
+{
+  "name": "chewy",
+  "version": "0.0.1",
+  "description": "chewy-bot",
+  "main": "chewy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chewy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nrc.db": "^2.1.0",
+    "orio.db": "^3.0.5"
+  }
+}
