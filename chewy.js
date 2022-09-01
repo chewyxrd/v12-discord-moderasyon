@@ -110,12 +110,13 @@ client.elevation = message => {
     if (message.author.id === ayarlar.sahip) permlvl = 4;
     return permlvl;
 };
+
 client.login(ayarlar.token)
 
 ////////////////////////////////// BOTU SESE SOKMA //////////////////////////////////
 
-  client.on("ready", () =>{
-client.channels.cache.get('941988789197373480').join()
+ client.on("ready", () =>{
+client.channels.cache.get('SES KANAL ID').join()
 })
 
 ////////////////////////////////// BOTU SESE SOKMA SON //////////////////////////////////
